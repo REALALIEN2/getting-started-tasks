@@ -51,11 +51,17 @@ Movement  Camera
 Space = Jump
 [b] = Attack
 
-[1] = Craft planks
-[2] = Craft sticks
-[3] = Craft a crafting table
-[4] = Craft a wooden axe (while nearby crafting table)
-[c] = Place crafting table
+if inv = 16 iron = [1] = buy whool
+if inv = 20 iron = [2] = buy stone sword
+if inv = 50 iron = [3] = buy leather armour
+if inv = 70 iron = [4] = buy iron sword
+if inv = 120 iron = [5] = Craft a wooden axe (while nearby crafting table)
+if inv = 2 emeralds = [6] = buy balloons
+if inv = 4 diamonds = [7] = buy armour protection teir 1
+if inv = 6 diamonds = [8]= buy sharpness teir 1
+if inv = 8 diamonds = [9] = buy armour protection teir 2
+if inv = 12 diamonds = [10] = buy sharpness teir 2
+if inv = 4 emeralds = 4 diamonds = [11] = buy diamond sword
 [e] = Equip wooden axe (if any)
 ---------------
 """
